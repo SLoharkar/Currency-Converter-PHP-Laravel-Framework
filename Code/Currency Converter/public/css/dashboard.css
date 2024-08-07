@@ -1,0 +1,46 @@
+.navbar {
+    background-color: rgba(0, 123, 255, 0.8) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.navbar .nav-link {
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .nav-link.active {
+    background-color: rgba(0, 86, 179, 0.8) !important;
+    color: #fff !important;
+}
+
+.navbar .nav-link:hover {
+    background-color: rgba(0, 86, 179, 0.6) !important;
+    color: #fff !important;
+}
+
+.container h2 {
+    /* color: #fff; */
+    margin-top: 20px;
+}
+
+.custom-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Logout button style */
+.btn-logout {
+    color: #fff;
+    background-color: #dc3545; /* Red color for logout */
+    border-color: #dc3545;
+}
+
