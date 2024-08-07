@@ -2,6 +2,11 @@
 
 A robust currency converter application built with Laravel 10. This application provides multiple data source options, user roles with specific permissions, and extensive features for both normal users and admin users.
 
+## Website Trailer
+
+Check out the trailer for a quick overview of what the Currency Converter Application can do!
+
+
 ## Features
 
 - **Data Source Options**:
@@ -38,20 +43,31 @@ A robust currency converter application built with Laravel 10. This application 
   - Middleware for authentication
   - Laravel validation
 
+## Prerequisites
+
+- **PHP**: Ensure you have PHP 7.4 installed.
+- **Composer**: Ensure you have Composer installed.
+- **XAMPP**: Ensure you have XAMPP installed and running.
+- **Laravel**: Ensure you have Laravel 10 installed.
+
 ## Installation
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/currency-converter.git
-    cd currency-converter
+    git clone https://github.com/SLoharkar/Currency-Converter-PHP-Laravel-Framework.git
+    cd Currency-Converter-PHP-Laravel-Framework
     ```
 
 2. **Install dependencies**:
-    ```sh
-    composer install
-    npm install
-    npm run dev
-    ```
+    - Ensure you have PHP 7.4 and Composer installed.
+    - Copy the project's `composer.json` file:
+      ```sh
+      cp path/to/project/composer.json .
+      ```
+    - Run the Composer update command:
+      ```sh
+      composer update
+      ```
 
 3. **Environment Setup**:
     - `.env` and update the necessary environment variables, including database credentials and other configurations.
@@ -109,4 +125,3 @@ A robust currency converter application built with Laravel 10. This application 
 
 - Laravel framework and its community
 - Floatrates for currency conversion data
-```
