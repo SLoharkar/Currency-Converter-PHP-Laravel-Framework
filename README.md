@@ -6,6 +6,7 @@ A robust currency converter application built with Laravel 10. This application 
 
 Check out the trailer for a quick overview of what the Currency Converter Application can do!
 
+https://github.com/user-attachments/assets/5faebda6-5560-4e8e-b880-bb2121e44238
 
 ## Features
 
