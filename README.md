@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/5faebda6-5560-4e8e-b880-bb2121e44238
     php artisan migrate
     ```
 
-5. **To Generate Artisan Encryption Key**:
+5. **Generate APP Key**:
     ```sh
     php artisan key:generate
     ```
