@@ -78,7 +78,12 @@ https://github.com/user-attachments/assets/5faebda6-5560-4e8e-b880-bb2121e44238
     php artisan migrate
     ```
 
-5. **Start the development server**:
+5. **To Generate Artisan Encryption Key**:
+    ```sh
+    php artisan key:generate
+    ```
+
+6. **Start the development server**:
     ```sh
     php artisan serve
     ```
